@@ -1,0 +1,47 @@
+[
+  {
+    "id": "loc-mahoba",
+    "name": "Mahoba",
+    "state": "Uttar Pradesh",
+    "pincode": "210427",
+    "isDefault": true,
+    "lat": 25.2917,
+    "lng": 79.8732
+  },
+  {
+    "id": "loc-gurugram",
+    "name": "Gurugram",
+    "state": "Haryana",
+    "pincode": "122001",
+    "isDefault": false,
+    "lat": 28.4595,
+    "lng": 77.0266
+  },
+  {
+    "id": "loc-delhi",
+    "name": "Delhi NCR",
+    "state": "Delhi",
+    "pincode": "110001",
+    "isDefault": false,
+    "lat": 28.6139,
+    "lng": 77.2090
+  },
+  {
+    "id": "loc-bengaluru",
+    "name": "Bengaluru",
+    "state": "Karnataka",
+    "pincode": "560001",
+    "isDefault": false,
+    "lat": 12.9716,
+    "lng": 77.5946
+  },
+  {
+    "id": "loc-mumbai",
+    "name": "Mumbai",
+    "state": "Maharashtra",
+    "pincode": "400001",
+    "isDefault": false,
+    "lat": 19.0760,
+    "lng": 72.8777
+  }
+]

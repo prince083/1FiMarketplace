@@ -1,0 +1,11 @@
+{
+  "name": "1fi-marketplace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix client run dev",
+    "dev:all": "node start-all.cjs",
+    "build": "npm --prefix client run build",
+    "server": "npm --prefix server run dev"
+  }
+}
