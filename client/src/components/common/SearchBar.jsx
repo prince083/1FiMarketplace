@@ -5,8 +5,9 @@ import { useMarketplace } from '../../context/MarketplaceContext';
 export const SearchBar = () => {
   const { activeTab, searchQuery, setSearchQuery } = useMarketplace();
 
-  const placeholderText =
-    activeTab === 'brands' ? 'Search online stores...' : 'Search stores...';
+  let placeholderText = 'Search online stores...';
+  if (activeTab === 'stores') placeholderText = 'Search stores...';
+  if (activeTab === 'marketplace') placeholderText = 'Search products in Marketplace...';
 
   return (
     <div className="shrink-0 px-4 mt-4">
